@@ -10,3 +10,4 @@ func main() {
 }
 ```
 4. run the code: `go run hello.go` in terminal.
+5. To create and run the executable file, use `go build hello.go` to create an executable file named `hello` (or `hello.exe` on Windows). Then run it with `./hello` (or `hello.exe` on Windows).
