@@ -1,5 +1,10 @@
 package main
 import "fmt"
 func main(){
-	fmt.Println("")
+	a:= 100
+	b:= 20
+	if a > b {
+		fmt.Println("a is greater than b")
+	}
+	ifelsefunc()
 }
