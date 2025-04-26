@@ -6,6 +6,6 @@ func main(){
 	// if a > b {
 	// 	fmt.Println("a is greater than b")
 	// }
-	// ifelsefunc()
+	ifelsefunc()
 	ifelseiffunc()
 }
