@@ -1,0 +1,5 @@
+- I followed the official Go documentation for modules to create a module and add a dependency to it. [from this](https://go.dev/blog/using-go-modules#introduction)
+- We make `hello.go` a module, and to test it, we created `hello_test.go` with a simple test function. to run the test, we use the command `go test` in the terminal.
+- The `go.mod` file is created automatically when we run `go mod init <module-name>`, and it contains the module's name and its dependencies.
+- The `go.sum` file is also created automatically and contains checksums for the module's dependencies to ensure integrity.
+- To add a dependency, we can use the command `go get <dependency>` which updates the `go.mod` and `go.sum` files accordingly.
